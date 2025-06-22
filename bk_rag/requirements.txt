@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+pyarrow
+jupyter
+scikit-learn
+google-generativeai
