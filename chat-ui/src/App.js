@@ -57,7 +57,6 @@ function App() {
         question: userMessage,
       });
       setChats((prevChats) => {
-        // Dùng lại chatIdx, không dùng currentChatIdx vì có thể đã thay đổi
         const updatedChats = [...prevChats];
         updatedChats[chatIdx] = {
           ...updatedChats[chatIdx],
